@@ -13,21 +13,48 @@ public class ScriptHomeScene : MonoBehaviour{
 
     void Update(){
         if (Input.GetKeyDown(KeyCode.Escape)){
-            ShowExitDialog();
+            OnExitClicked();
         }
     }
 
     void OnPlayClick(){
-        Debug.Log("Play Clicked");
-        StartGameScene();        
+        //Show New Game Dialog        
     }
 
     void OnHowToPlayClick(){
-        Debug.Log("How To Play Clicked");
+        //??
     }
 
-    void ShowExitDialog(){
-        Debug.Log("Exit Clicked");
+    void OnTwoPlayerCountClicked(){
+        
+    }
+
+    void OnThreePlayerCountClicked(){
+        
+    }
+    
+    void OnFourPlayerCountClicked(){
+        
+    }
+
+    void OnNewStartClicked(){
+        //Validate Name
+    }
+
+    void OnNewStartCloseClicked(){
+
+    }
+
+    void OnExitClicked(){
+        //Show Exit Dialog
+    }
+
+    void OnExitYesClicked(){
+
+    }
+
+    void OnExitNoClicked(){
+
     }
 
     void StartGameScene(){
